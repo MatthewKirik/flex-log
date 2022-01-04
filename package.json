@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/MatthewKirik/flex-log#readme",
   "devDependencies": {
-    "eslint": "^8.6.0"
+    "eslint": "^8.6.0",
+    "prettier": "^2.5.1"
   }
 }
