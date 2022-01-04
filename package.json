@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/MatthewKirik/flex-log/issues"
   },
-  "homepage": "https://github.com/MatthewKirik/flex-log#readme"
+  "homepage": "https://github.com/MatthewKirik/flex-log#readme",
+  "devDependencies": {
+    "eslint": "^8.6.0"
+  }
 }
