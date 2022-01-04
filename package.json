@@ -1,0 +1,30 @@
+{
+  "name": "flex-log",
+  "version": "1.0.0",
+  "description": "It's a simple logging library",
+  "main": "./lib/log.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatthewKirik/flex-log.git"
+  },
+  "keywords": [
+    "logger",
+    "files",
+    "console"
+  ],
+  "contibutors": [
+    "Ivan Baturkin <ivanmysterys@gmail.com>",
+    "Matthew Kirik <ikirik59@gmail.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MatthewKirik/flex-log/issues"
+  },
+  "homepage": "https://github.com/MatthewKirik/flex-log#readme"
+}
