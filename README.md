@@ -23,3 +23,7 @@ some examples here
 MIT
 
 ## Contributors
+
+- Ivan Baturkin - [gurug-prog](https://github.com/gurug-prog)
+- Matthew Kirik - [MatthewKirik](https://github.com/MatthewKirik)
+
