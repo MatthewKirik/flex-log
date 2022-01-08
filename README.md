@@ -8,6 +8,11 @@
 
 ### The project provides and uses:
 
+- Telegram API
+- Console logging into STDOUT stream
+- File logging
+
+
 ## Examples of logging
 
 ### Log-files
