@@ -4,6 +4,18 @@
 
 ## Quick Start
 
+```
+$ git clone https://github.com/MatthewKirik/flex-log.git
+```
+
+```
+$ cd flex-log
+```
+
+```
+$ npm i
+```
+
 ## Project contents
 
 ### The project provides and uses:
