@@ -20,6 +20,7 @@ $ npm i
 
 ## Project contents
 
+**As the all library consists of asynchronous functions it provides quick interaction with needed ways of usage.**
 
 ### The library provides:
 
@@ -29,17 +30,6 @@ $ npm i
 - HTTPS posting
 - STD streams
 - External files
-
-
-## Examples of logging
-
-### Log-files
-
-some examples here
-
-### Console logging
-
-some examples here
 
 ## License
 
