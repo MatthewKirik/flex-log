@@ -1,33 +1,33 @@
 # About logging
 
-### [Read in Ukrainian](./README.md)
+### [Read in Ukrainian](./ukr-readme.md)
 
 ## Log file
 
-Файл логу (log file) - файл, у який програма автоматично записує інформацію про події, що виникають в процесі її роботи. Логування програмної інформації використовується для аудиту, профілювання, збору статистики і, найчастіше, для виявлення причини збоїв у роботі програм (див. корисні посилання).
+Log file – is a file that automatically records the information about events that happen during program work. Software information logging is used for audit, profiling, collecting statistics and most often to identify the causes of software failures (see useful links).
 
 ## Ways and levels of logging
 
-Способи логування можуть відрізнятись в залежності від типу ПЗ, що генерує файли логу. Деякі desktop-додатки генерують такі файли лише при аварійному завершенні програми. Серверні додатки зазвичай логують будь-яку активність.
+Logging methods may differ depending on the type of software that generates the log files. Some desktop applications generate such files only when the program crashes. Server applications usually log any activity.
 
-Логування дозволяє зберігати інформацію про стани та поведінку програмної системи до її аварійного завершення чи виявлення некоректної роботи. Якщо у користувача з'явилися проблеми із вашою програмою, що встановлена на його комп'ютері, можна отримати від нього файли з логами для дослідження аномалій у роботі програми. Якщо ваш веб-сервер аварійно завершив свою роботу - ви можете дослідити збережену інформацію про запити, що спричинили проблему і виправити її.
+Logging allows storing information on the status and behavior of the software system until it crashes or detects incorrect operation. If the user has problems with your program installed on his computer, you can get files with logs from him to investigate anomalies in the program. If your web server crashes, you can investigate the saved information about queries that caused the problem and fix it.
 
-Звичайно, постає питання: що і коли логувати. В залежності від важливості і типу події розподіляють по рівнях логування. На практиці найчастіше використовують рівні ERROR, WARN, INFO, DEBUG та TRACE:
+Of course, there is a question what and when to log. Events are distributed by logging levels depending on the importance and type of the event. Practically, the most common used levels are ERROR, WARN, INFO, DEBUG and TRACE:
 
 [https://stackoverflow.com/a/8021604](https://stackoverflow.com/a/8021604)
 
 ## What is worth to log?
 
-Не варто логувати конфіденційну інформацію користувачів: паролі, номери банківських карт, номери соціального страхування та ін. Детально про те, що потрібно і непотрібно логувати можна почитати [тут](https://www.owasp.org/index.php/Logging_Cheat_Sheet).
+You don’t need to log confidential information about users: passwords, bank card numbers, social security numbers, etc. You can read more on what you need and don’t need to log [here](https://www.owasp.org/index.php/Logging_Cheat_Sheet).
 
-Недостаток інформації у логах не дозволить виявити причину поломки, надлишок логів ускладнює їх обробку і може призвести до зниження швидкодії програми та до створення програмою лог-файлів, розмір яких може сягати гігабайтів (за словами знайомого працівника відділу підтримки користувачів, був випадок коли файл логів займав 50 Гб!).
+Lack of information in the logs will not reveal the cause of the breakdown, but the excess of logs will complicate their processing and can lead to reduced program speed and make the program to create log files that can reach gigabytes (as one of customer support employee said, there was a case when the log file was 50 GB!).
 
-Для вирішення проблеми зростання розміру логів можна використовують метод кільцевого буфера ([ring buffer](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.31.6746&rep=rep1&type=pdf))
+To solve the problem of the log-files size increase, you can use the [ring buffer logging](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.31.6746&rep=rep1&type=pdf)
 
 ## Logging advices
 
-Перед тим як вам знадобиться додавати у програму свої перші логи прочитайте 10 заповідей логування (див. корисні посилання).
+Before you start implementing your first logs in the program, read the 10 advices of logging (see useful links).
 
-Для обробки згенерованих логів і пошуку інформації у них можна використовувати стандартні текстові редактори та силу регулярних виразів, або більш спеціалізовані засоби, наприклад, lnav.
+To process the generated logs and search for information in them, you can use standard text editors and the power of regular expressions, or more specialized tools, such as lnav.
 
 ### [Useful links](./useful-links.md)
