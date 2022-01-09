@@ -36,16 +36,23 @@ $ npm run prettify
 
 ## Project contents
 
-**As the all library consists of asynchronous functions it provides quick interaction with needed ways of usage.**
+**As the all library consists of asynchronous functions it provides quick interaction with needed ways of usage**
 
-### The library provides:
-
-### Project works with
+### Library works with
 
 - Telegram API
 - HTTPS posting
 - STD streams
 - External files
+
+### The library provides:
+
+- Usage of custom logging levels
+- Multiple ways of file logging
+- Logging to files with diffent and custom time intervals
+- Simple logging to your Telegram channel
+- A huge variety of colors (ESC codes)
+- Colored console logging
 
 ## License
 
