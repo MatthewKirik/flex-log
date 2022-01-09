@@ -4,6 +4,8 @@
 
 ## Quick Start
 
+**You can simply start using flex-log lib doing:**
+
 ```
 $ git clone https://github.com/MatthewKirik/flex-log.git
 ```
@@ -18,11 +20,15 @@ $ npm i
 
 ## Project contents
 
-### The project provides and uses:
+
+### The library provides:
+
+### Project works with
 
 - Telegram API
-- Console logging into STDOUT stream
-- File logging
+- HTTPS posting
+- STD streams
+- External files
 
 
 ## Examples of logging
