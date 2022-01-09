@@ -12,9 +12,7 @@ Logging methods may differ depending on the type of software that generates the 
 
 Logging allows storing information on the status and behavior of the software system until it crashes or detects incorrect operation. If the user has problems with your program installed on his computer, you can get files with logs from him to investigate anomalies in the program. If your web server crashes, you can investigate the saved information about queries that caused the problem and fix it.
 
-Of course, there is a question what and when to log. Events are distributed by logging levels depending on the importance and type of the event. Practically, the most common used levels are ERROR, WARN, INFO, DEBUG and TRACE:
-
-[https://stackoverflow.com/a/8021604](https://stackoverflow.com/a/8021604)
+Of course, there is a question what and when to log. Events are distributed by logging levels depending on the importance and type of the event. Practically, the most common used levels are ERROR, WARN, INFO, DEBUG and TRACE.
 
 ## What is worth to log?
 
