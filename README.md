@@ -1,6 +1,6 @@
 # Flex Log
 
-**It's a simple logging library**
+**It's a simple logging library** ([learn more](./docs/README.md))
 
 ## Quick Start
 
