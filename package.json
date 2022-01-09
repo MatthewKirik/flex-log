@@ -18,7 +18,26 @@
   "keywords": [
     "logger",
     "files",
-    "console"
+    "console",
+    "stream",
+    "std",
+    "Telegram",
+    "sink",
+    "async",
+    "Asynchronous",
+    "http",
+    "https",
+    "path",
+    "latest",
+    "quick",
+    "message",
+    "date",
+    "pool",
+    "level",
+    "color",
+    "inteval",
+    "time",
+    "queue"
   ],
   "contibutors": [
     "Ivan Baturkin <ivanmysterys@gmail.com>",
