@@ -4,7 +4,7 @@
 
 ## Quick Start
 
-**You can simply start using flex-log lib doing:**
+**You can simply start using flex-log lib running:**
 
 ```
 $ git clone https://github.com/MatthewKirik/flex-log.git
@@ -16,6 +16,22 @@ $ cd flex-log
 
 ```
 $ npm i
+```
+
+## Commands (for contributors)
+
+**Once you've installed it you can easily use linting and prettifying scripts** (see [package.json](https://github.com/MatthewKirik/flex-log/blob/main/package.json))
+
+### Eslint
+
+```
+$ npm run lint
+```
+
+### Prettier
+
+```
+$ npm run prettify
 ```
 
 ## Project contents
@@ -39,4 +55,3 @@ MIT
 
 - Ivan Baturkin - [gurug-prog](https://github.com/gurug-prog)
 - Matthew Kirik - [MatthewKirik](https://github.com/MatthewKirik)
-
